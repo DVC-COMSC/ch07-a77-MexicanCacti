@@ -8,7 +8,6 @@ num2 = list(map(int, input().split()))
 num3 = []
 check = True
 stop = 0
-length = 0
 length = len(num2) if len(num1) < len(num2) else len(num1)
 for i in range(length):
     try:
